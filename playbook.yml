@@ -4,7 +4,7 @@
   become: False
   gather_facts: False
   vars_files:
-    - /var/jenkins_home/workspace/aws_keys.yml
+    - aws_keys.yml
 
   tasks:
 
