@@ -44,7 +44,7 @@
       amazon.aws.ec2:
         aws_access_key: "{{ my_access_key }}"
         aws_secret_key: "{{ my_secret_key }}"
-        key_name: kp-ansible-project
+        key_name: /var/jenkins_home/workspace/kp-ansible-project
         instance_type: t2.micro
         image: ami-00399ec92321828f5
         group_id:
