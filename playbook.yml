@@ -67,7 +67,7 @@
 
     - name: Get Nexus archives
       shell:
-        cmd: curl -O http://172.27.208.1:8081/repository/Projet_POEI_final/archive_version4.tar.gz
+        cmd: curl -O http://192.168.146.81:8081/repository/Projet_POEI_final/archive_version4.tar.gz
 
 - hosts: remote
   remote_user: ubuntu
