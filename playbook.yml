@@ -10,7 +10,7 @@
 
     - name: Create security group for EC2
       ec2_group:
-        aws_access_key: "{{ my_access_key }}"
+        aws_access_key: "{{ access_key }}"
         aws_secret_key: "{{ my_secret_key }}"
         name: project
         description: Webservers security group
