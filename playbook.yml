@@ -43,7 +43,7 @@
   
     - name: Launch EC2 instances
       amazon.aws.ec2:
-        aws_access_key: "{{ my_access_key }}"
+        aws_access_key: "{{ access_key }}"
         aws_secret_key: "{{ my_secret_key }}"
         key_name: kp-ansible-project
         instance_type: t2.micro
